@@ -6,11 +6,7 @@ class TestPersonalInfo < Minitest::Test
         assert_equal(1, 1)
     end
 
-    def test_assert_that_18_equals_18
-    	assert_equal("18", age())
+    def test_assert_that_information_equals_hash
+    	assert_equal({}, (information))
     end
-
-def test_assert_that_January_is_January
-	assert_equal("January", birthMonth())
-end
 end
