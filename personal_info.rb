@@ -26,8 +26,7 @@ def info()
 	if bobby[:color] == trixie[:color]
 		p "Nice we have the same favorite color."
 	else
-		p
-		"Your favorite color is nice as well."
+		p "Your favorite color is nice as well."
 	end
 
 	if bobby[:name] == jeremy[:name]
@@ -51,8 +50,151 @@ def info()
 	if bobby[:color] == jeremy[:color]
 		p "Nice we have the same favorite color."
 	else
-		p
-		"Your favorite color is nice as well."
+		p "Your favorite color is nice as well."
+	end
+
+	if bobby[:name] == nikolai[:name]
+    	p "We have the same name."
+    else
+    	p "Nice to meet you, Nikolai. My name is Bobby."
+    end
+
+    if bobby[:age] == nikolai[:age]
+    	p "Awesome, we're the same age."
+    else
+    	p "Sorry, but we aren't the same age."
+	end
+
+	if bobby[:pets] == nikolai[:pets]
+		p "Sweet we have pets."
+	else
+		p "Pets can be a handful."
+	end
+
+	if bobby[:color] == nikolai[:color]
+		p "Nice we have the same favorite color."
+	else
+		p "Your favorite color is nice as well."
+	end
+
+	if bobby[:name] == kobe[:name]
+    	p "We have the same name."
+    else
+    	p "Nice to meet you, Kobe. My name is Bobby."
+    end
+
+    if bobby[:age] == kobe[:age]
+    	p "Awesome, we're the same age."
+    else
+    	p "Sorry, but we aren't the same age."
+	end
+
+	if bobby[:pets] == kobe[:pets]
+		p "Sweet we have pets."
+	else
+		p "Pets can be a handful."
+	end
+
+	if bobby[:color] == kobe[:color]
+		p "Nice we have the same favorite color."
+	else
+		p "Your favorite color is nice as well."
+	end
+
+	if trixie[:name] == bobby[:name]
+    	p "We have the same name."
+    else
+    	p "Nice to meet you, Bobby. My name is Trixie."
+    end
+
+    if trixie[:age] == bobby[:age]
+    	p "Awesome, we're the same age."
+    else
+    	p "Sorry, but we aren't the same age."
+	end
+
+	if trixie[:pets] == bobby[:pets]
+		p "Sweet we have pets."
+	else
+		p "Pets can be a handful."
+	end
+
+	if trixie[:color] == bobby[:color]
+		p "Nice we have the same favorite color."
+	else
+		p "Your favorite color is nice as well."
+	end
+
+	if trixie[:name] == jeremy[:name]
+    	p "We have the same name."
+    else
+    	p "Nice to meet you, Jeremy. My name is Trixie."
+    end
+
+    if trixie[:age] == jeremy[:age]
+    	p "Awesome, we're the same age."
+    else
+    	p "Sorry, but we aren't the same age."
+	end
+
+	if trixie[:pets] == jeremy[:pets]
+		p "Sweet we have pets."
+	else
+		p "Pets can be a handful."
+	end
+
+	if trixie[:color] == jeremy[:color]
+		p "Nice we have the same favorite color."
+	else
+		p "Your favorite color is nice as well."
+	end
+
+	if trixie[:name] == nikolai[:name]
+    	p "We have the same name."
+    else
+    	p "Nice to meet you, Nikolai. My name is Trixie."
+    end
+
+    if trixie[:age] == nikolai[:age]
+    	p "Awesome, we're the same age."
+    else
+    	p "Sorry, but we aren't the same age."
+	end
+
+	if trixie[:pets] == nikolai[:pets]
+		p "Sweet we have pets."
+	else
+		p "Pets can be a handful."
+	end
+
+	if trixie[:color] == nikolai[:color]
+		p "Nice we have the same favorite color."
+	else
+		p "Your favorite color is nice as well."
+	end
+
+	if trixie[:name] == kobe[:name]
+    	p "We have the same name."
+    else
+    	p "Nice to meet you, Kobe. My name is Trixie."
+    end
+
+    if trixie[:age] == kobe[:age]
+    	p "Awesome, we're the same age."
+    else
+    	p "Sorry, but we aren't the same age."
+	end
+
+	if trixie[:pets] == kobe[:pets]
+		p "Sweet we have pets."
+	else
+		p "Pets can be a handful."
+	end
+
+	if trixie[:color] == kobe[:color]
+		p "Nice we have the same favorite color."
+	else
+		p "Your favorite color is nice as well."
 	end
  end
 
